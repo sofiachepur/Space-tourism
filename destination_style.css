@@ -1,0 +1,113 @@
+body{
+    background: url("Media/destination/background-destination-desktop.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding: 0;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.planets > div {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: opacity 0.5s ease;
+    pointer-events: none;
+}
+
+.planets > div.active {
+    opacity: 1;
+    visibility: visible;
+    position: relative;
+    pointer-events: auto;
+}
+.planets > div.active {
+    display: block;
+}
+.tabs{
+    height: 35px;
+    margin-bottom: 10px;
+}
+.tabs button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: normal;
+
+
+    padding: 10px 15px;
+    color: #aaa;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s, border-color 0.3s;
+}
+.tabs button.active {
+    color: white;
+    border-color: white;
+
+}
+
+h2{
+    font-weight: lighter;
+    font-size: 96px;
+    line-height: 0;
+}
+p{
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 180%;
+
+}
+h3{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 0;
+}
+h4{
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 0;
+}
+.container {
+    display: flex;
+    width: 70%;
+    margin-left: 250px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.planets{
+    width: 50%;
+    display: flex;
+}
+.line1{
+    left: 780px;
+    width: 500px;
+    height: 1px;
+    background: rgba(221, 221, 221, 0.25);
+
+}
+.planet {
+    display: flex;
+    gap: 30px;
+}
+.planet-info{
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.information{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.planet-image img {
+    width: 480px;
+    height: 480px;
+    flex-shrink: 0;
+}
+

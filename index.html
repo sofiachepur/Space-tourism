@@ -3,40 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>Space tourism</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="Media/shared/logo.svg">
+  <link rel="icon" type="image/png" sizes="16x16" href="Media/shared/logo.svg">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="home_style.css">
+  <script src="index.js"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+
 </head>
-<body>
+<body >
 
 <header>
+
+  <div class="header">
   <div class="logo">
-    <img src="../Media/shared/logo.svg" alt="logo">
+   <a href="index.html"> <img src="Media/shared/logo.svg" alt="logo"></a>
     <div class="line"></div>
   </div>
 
+  <nav class="nav">
+    <ul class="menu">
+      <li><a href="index.html">00 Home</a></li>
+      <li><a href="Destination.html">01 DESTINATION</a></li>
+      <li><a href="crew.html">02 CREW</a></li>
+      <li><a href="Technology.html">03 TECHNOLOGY</a></li>
+    </ul>
+  </nav>
+  </div>
 
-<nav>
-  <ul>
-    <li><a href="index.html">00 Home</a></li>
-    <li><a href="Destination.html">01 DESTINATION</a></li>
-    <li><a href="crew.html">02 CREW</a></li>
-    <li><a href="Technology.html">03 TECHNOLOGY</a></li>
-  </ul>
-</nav>
+ 
+
+
 
 </header>
 
 <main>
+  <div class="main">
+  <div  class="container">
   <h2>SO, YOU WANT TO TRAVEL TO</h2>
-  <h1>SPACE</h1>
+  <span>SPACE</span>
 
   <p>Let’s face it; if you want to go to space, you might as well genuinely
     go to outer space and not hover kind of on the edge of it. Well sit back,
     and relax because we’ll give you a truly out of this world experience!</p>
 
 
-
+  </div>
   <div class="explore">
-  <button>Explore</button>
+    <button class="circle-btn" onclick="location.href='destination.html'">
+      EXPLORE
+    </button>
+  </div>
+
   </div>
 </main>
 

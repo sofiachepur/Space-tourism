@@ -2,21 +2,121 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+  <title>Space tourism</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="Media/shared/logo.svg">
+  <link rel="icon" type="image/png" sizes="16x16" href="Media/shared/logo.svg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="crew_style.css">
+  <script src="index.js" defer></script>
 </head>
-<body>
+<body >
 <header>
 
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="Destination.html">Destination</a></li>
-      <li><a href="crew.html">Crew</a></li>
-      <li><a href="Technology.html">Technology</a></li>
+  <div class="header">
+  <div class="logo">
+    <a href="index.html"> <img src="Media/shared/logo.svg" alt="logo"></a>
+    <div class="line"></div>
+  </div>
+
+
+  <nav class="nav">
+    <ul class="menu">
+      <li><a href="index.html">00 Home</a></li>
+      <li><a href="Destination.html">01 DESTINATION</a></li>
+      <li><a href="crew.html">02 CREW</a></li>
+      <li><a href="Technology.html">03 TECHNOLOGY</a></li>
     </ul>
   </nav>
 
-  <h1>crew</h1>
+  </div>
 </header>
+
+<main>
+
+  <h1> <span> 02  </span> MEET YOUR CREW </h1>
+
+
+
+
+
+  <div class="container">
+
+    <div class="people" id="commander">
+      <div class="people-info">
+          <h2>COMMANDER </h2>
+        <h3>Douglas Hurley</h3>
+        <p>Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut.
+          He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+      </div>
+
+      <div class="people-image">
+        <img src="Media/Crew/image-douglas-hurley.png" alt="Douglas Hurley" >
+
+      </div>
+    </div>
+
+
+      <div class="people" id="mission">
+        <div class="people-info">
+      <h2>Mission Specialist </h2>
+          <h3>MARK SHUTTLEWORTH</h3>
+          <p>Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based
+            Ubuntu operating system.
+            Shuttleworth became the first South African to travel to space as a space tourist.</p>
+        </div>
+
+        <div class="people-image">
+        <img src="Media/Crew/image-mark-shuttleworth.png" alt="Mark Shuttleworth" >
+
+        </div>
+      </div>
+
+        <div class="people" id="pilot">
+          <div class="people-info">
+            <h2>PILOT</h2>
+            <h3>Victor Glover</h3>
+
+            <p>Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station.
+              Glover is a commander in the U.S. Navy where he pilots an F/A-18.
+              He was a crew member of Expedition 64, and served as a station systems flight engineer. </p>
+          </div>
+
+          <div class="people-image">
+        <img src="Media/Crew/image-victor-glover.png" alt="Victor Glover" >
+          </div>
+
+        </div>
+
+          <div class="people" id="engineer">
+            <div class="people-info">
+            <h2>Flight Engineer</h2>
+              <h3>Anousheh Ansari</h3>
+              <p>Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems.
+                Ansari was the fourth self-funded space tourist, the
+                first self-funded woman to fly to the ISS, and the first Iranian in space. </p>
+            </div>
+
+            <div class="people-image">
+                <img src="Media/Crew/image-anousheh-ansari.png" alt="Anousheh Ansari" >
+            </div>
+
+            </div>
+
+
+
+
+
+
+</div>
+
+
+  <div class="tab1">
+    <button class="tab active" data-target="commander"></button>
+    <button class="tab" data-target="mission"></button>
+    <button class="tab" data-target="pilot"></button>
+    <button class="tab" data-target="engineer"></button>
+  </div>
+
+</main>
 </body>
 </html>

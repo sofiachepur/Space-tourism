@@ -1,4 +1,99 @@
+
+/*загальні стиль для сторінок*/
+
 body{
-    background: url("Media/home/background-home-desktop.jpg") no-repeat center center fixed;
-    
+
+    background-size: cover;
+    padding: 0;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+
+    height: 1200px;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+   top:70px;
+    position: absolute;
+
+
+}
+.line {
+    width: 650px;
+    margin-left: 100px;
+    height: 1px;
+    z-index: 2;
+    background: rgba(221, 221, 221, 0.25);
+    position: absolute;
+
+}
+
+.nav {
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100px;
+  position: absolute;
+    right: 0;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+
+.menu {
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    font-size: 16px;
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu a {
+    position: relative;
+    padding: 12px 0;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.menu a::after {
+    bottom: -30px;
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #ffffff;
+    transition: width 0.3s ease;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+
+
+.menu a.active::after {
+    width: 100% !important;
+}
+h1{
+    margin-top: 200px;
+    margin-left: 150px;
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+span{
+    color: #717171;
 }

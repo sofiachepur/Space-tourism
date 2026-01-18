@@ -1,0 +1,79 @@
+
+/*початкова сторінка*/
+body{
+    background: url("Media/home/background-home-desktop.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding: 0;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.container{
+    width: 540px;
+    margin-left: 150px;
+    margin-top: 400px;
+}
+.container h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    font-size: 28px;
+    color: white;
+    font-weight: lighter;
+}
+.container h1{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 20px;
+    font-size: 144px;
+    color: white;
+    font-weight: lighter;
+    line-height: 0;
+}
+.container p{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    font-size: 18px;
+    color: white;
+    font-weight: lighter;
+    line-height: 180%;
+}
+.main{
+    display: flex;
+    gap:100px;
+    align-items: center;
+
+}
+.explore button{
+    margin-top: 450px;
+    margin-left: 250px;
+    border: none;
+    background: white;
+    border-radius: 50%;
+    height: 272px;
+    width: 272px;
+    color: black;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+}
+.explore button:hover{
+    color: rgba(0, 0, 0, 0.35);
+
+    box-shadow:
+            0 0 0 60px rgba(255, 255, 255, 0.04),
+            0 0 60px rgba(255, 255, 255, 0.6);
+
+}
+.container span{
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 3px;
+    font-size: 144px;
+    color: white;
+    font-weight: normal;
+    line-height: 100px;
+
+}
+

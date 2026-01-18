@@ -1,0 +1,96 @@
+body{
+    background: url("Media/technology/background-technology-desktop.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding: 0;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+.space{
+    display: flex;
+    align-items: center;
+    margin-top: 250px;
+
+}
+
+.space-info{
+    width: 491px;
+    height: 304px;
+
+
+}
+
+.change{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 55px;
+    margin-left: 150px;
+    height: 100%;
+}
+
+
+
+
+.space-image {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 300px;
+    align-items: center;
+    gap: 50px;
+    height: 634px;
+}
+
+.space-image.active {
+    display: flex;
+
+}
+.space-image img{
+    height: 100%;
+}
+.change button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgba(240, 240, 240, 0);
+    color: white;
+    font-size: 32px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    border: rgba(255, 255, 255, 0.3) 1px solid;
+    cursor: pointer;
+}
+
+.change button.active {
+    background: white;
+    color: black;
+}
+
+
+.space-info h2{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 32px;
+    letter-spacing: 5px;
+    color: rgba(255, 255, 255, 0.3);
+    font-weight: 400;
+}
+.space-info h3{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 56px;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    line-height: 5px;
+}
+
+.space-info p{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    letter-spacing: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: initial;
+    line-height: 30px;
+}
